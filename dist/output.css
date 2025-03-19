@@ -178,6 +178,12 @@
   .table {
     display: table;
   }
+  .h-3 {
+    height: calc(var(--spacing) * 3);
+  }
+  .h-4 {
+    height: calc(var(--spacing) * 4);
+  }
   .h-10 {
     height: calc(var(--spacing) * 10);
   }
@@ -186,6 +192,15 @@
   }
   .h-16 {
     height: calc(var(--spacing) * 16);
+  }
+  .w-4 {
+    width: calc(var(--spacing) * 4);
+  }
+  .w-5 {
+    width: calc(var(--spacing) * 5);
+  }
+  .w-16 {
+    width: calc(var(--spacing) * 16);
   }
   .w-24 {
     width: calc(var(--spacing) * 24);
@@ -232,11 +247,11 @@
   .bg-\[\#E6E6E6\] {
     background-color: #E6E6E6;
   }
-  .bg-\[white\] {
-    background-color: white;
-  }
   .bg-orange-300 {
     background-color: var(--color-orange-300);
+  }
+  .bg-transparent {
+    background-color: transparent;
   }
   .bg-white {
     background-color: var(--color-white);
